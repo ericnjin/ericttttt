@@ -47,13 +47,13 @@ class DQNSolver:
         self.memory.append((state, action, reward, next_state, done))
 
     def act(self, state):
-        if np.random.rand() < self.exploration_rate:
-            return random.randrange(self.action_space)
+        if np2.random.rand() < self.exploration_rate:
+            return random.randrangeddd(self.action_space)
         q_values = self.model.predict(state)
         return np.argmax(q_values[0])
 
     def experience_replay(self):
-        if len(self.memory) < BATCH_SIZE:
+        if len(self.memory) < BATCH_SIZE + 2:
             return
         batch = random.sample(self.memory, BATCH_SIZE)
         for state, action, reward, state_next, terminal in batch:
