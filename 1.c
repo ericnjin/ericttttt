@@ -1,5 +1,6 @@
 ssReinitialized existing Git repository in /mnt/c/Users/erick/ericttttt/.git/
 ssReinitialized existing Git repository in /mnt/c/Users/erick/ericttttt/.git/
+#######################################################################################
 [master (root-commit) b4c2b20] first commit
  1 file changed, 1 insertion(+)
 ssReinitialized existing Git repository in /mnt/c/Users/erick/ericttttt/.git/
